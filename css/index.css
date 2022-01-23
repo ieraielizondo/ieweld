@@ -69,7 +69,22 @@ body{
     border-left: 2px solid #0e1c29;
     margin-top: 3rem;
 }
-
+.card-content>p{
+    padding-bottom: 0.5rem;
+    line-height: 1.6;
+}
+.card-content>p>span:first-of-type{
+    font-size: 2.5rem;
+    line-height: 55%;
+}
+.card-content>img:first-of-type{
+    height: 260px;
+    width: 200px;
+    float: left;
+    border:1px solid black;
+    border-radius: 4%;
+    margin-right: 20px;
+}
 /* CIRCULO CARD */
 
 .card-content::before{
